@@ -1,5 +1,12 @@
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 import { Telegraf } from "telegraf";
 import dotenv from "dotenv";
+
+const __filename = fileURLToPath(import.meta.url);
+
+const rootDir = dirname(__filename);
+console.log(rootDir);
 
 dotenv.config();
 const orderState = {};
