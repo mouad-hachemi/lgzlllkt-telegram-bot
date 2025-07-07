@@ -1,0 +1,21 @@
+{
+  "name": "lgzlllkt-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot for el ghazel bookstore",
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "license": "ISC",
+  "author": "Mouad Hachemi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
